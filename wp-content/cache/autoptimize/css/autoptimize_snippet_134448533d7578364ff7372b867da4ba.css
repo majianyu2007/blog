@@ -1,0 +1,15 @@
+.__youshang {position: relative;}
+.__youshang>.popup {position: absolute;width: 280px;background: #eee;bottom: 60px;left: 50%;margin-left: -140px;color: #fff;box-shadow: 0 0 5px 0 #ccc;border-radius: 5px;line-height: 0;}
+.__youshang>.wechat {background: #05af4e;}
+.__youshang>.alipay {background: #00a2ea;}
+.__youshang>.hongbao {background: #dd5746;}
+.__youshang>.popup>.head {text-align: center;padding-top: 30px;}
+.__youshang .qrcode {text-align: center;}
+.__youshang .qrcode img {margin: 30px auto;width: 80%;}
+.__youshang ul.platform {padding: 0 !important;margin: 0 !important;text-align: center;background: #fff;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.__youshang ul.platform li {display: inline-block;cursor: pointer;margin: 5px;filter: grayscale(100%);}
+.__youshang ul.platform li.active {font-weight: 600;filter: grayscale(0%);}
+.__youshang ul.platform li.icon-wechat {background: url("//majianyu.me/wp-content/plugins/you-shang/static/../image/wechat.svg") no-repeat center center;width: 24px;height: 24px;background-size: cover;}
+.__youshang ul.platform li.icon-alipay {background: url("//majianyu.me/wp-content/plugins/you-shang/static/../image/alipay.svg") no-repeat center center;width: 24px;height: 24px;background-size: cover;}
+.__youshang ul.platform li.icon-hongbao {background: url("//majianyu.me/wp-content/plugins/you-shang/static/../image/hongbao.svg") no-repeat center center;width: 24px;height: 24px;background-size: cover;}
+#__youshang_btn {display: block;width: 50px;height: 50px;background: #eee;margin: 20px auto;border-radius: 50px;line-height: 50px;text-align: center;font-size: x-large;text-decoration: none;border: 1px solid rgba(0,0,0,.22);}
