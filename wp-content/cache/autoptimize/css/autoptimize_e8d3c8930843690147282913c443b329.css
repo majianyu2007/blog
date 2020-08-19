@@ -1,0 +1,30 @@
+.__youshang {position: relative;}
+.__youshang>.popup {position: absolute;width: 280px;background: #eee;bottom: 60px;left: 50%;margin-left: -140px;color: #fff;box-shadow: 0 0 5px 0 #ccc;border-radius: 5px;line-height: 0;}
+.__youshang>.wechat {background: #05af4e;}
+.__youshang>.alipay {background: #00a2ea;}
+.__youshang>.hongbao {background: #dd5746;}
+.__youshang>.popup>.head {text-align: center;padding-top: 30px;}
+.__youshang .qrcode {text-align: center;}
+.__youshang .qrcode img {margin: 30px auto;width: 80%;}
+.__youshang ul.platform {padding: 0 !important;margin: 0 !important;text-align: center;background: #fff;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.__youshang ul.platform li {display: inline-block;cursor: pointer;margin: 5px;filter: grayscale(100%);}
+.__youshang ul.platform li.active {font-weight: 600;filter: grayscale(0%);}
+.__youshang ul.platform li.icon-wechat {background: url("//majianyu.me/wp-content/plugins/you-shang/static/../image/wechat.svg") no-repeat center center;width: 24px;height: 24px;background-size: cover;}
+.__youshang ul.platform li.icon-alipay {background: url("//majianyu.me/wp-content/plugins/you-shang/static/../image/alipay.svg") no-repeat center center;width: 24px;height: 24px;background-size: cover;}
+.__youshang ul.platform li.icon-hongbao {background: url("//majianyu.me/wp-content/plugins/you-shang/static/../image/hongbao.svg") no-repeat center center;width: 24px;height: 24px;background-size: cover;}
+#__youshang_btn {display: block;width: 50px;height: 50px;background: #eee;margin: 20px auto;border-radius: 50px;line-height: 50px;text-align: center;font-size: x-large;text-decoration: none;border: 1px solid rgba(0,0,0,.22);}
+.smartideo {z-index: 0;text-align: center;background: #ccc;line-height: 0;text-indent: 0;}
+.smartideo embed, .smartideo iframe {padding: 0;margin: 0;}
+.smartideo .player {width: 100%;height: 500px;overflow: hidden;position: relative;}
+.smartideo .player a.smartideo-play-link {display: block;width: 50px;height: 50px;text-decoration: none;border: 0;position: absolute;left: 50%;top: 50%;margin: -25px;}
+.smartideo .player a.smartideo-play-link p {display: none;}
+.smartideo .player .smartideo-play-button {width: 0;height: 0;border-top: 25px solid transparent;border-left: 50px solid #fff;border-bottom: 25px solid transparent;}
+.smartideo .tips {background: #f2f2f2;text-align: center;max-height: 32px;line-height: 32px;font-size: 12px;}
+.smartideo .tips a {text-decoration: none;}
+@media screen and (max-width:959px) {.smartideo .player {height: 450px;}}
+@media screen and (max-width:767px) {.smartideo .player {height: 400px;}}
+@media screen and (max-width:639px) {.smartideo .player {height: 350px;}}
+@media screen and (max-width:479px) {.smartideo .player {height: 250px;}}
+.login-action-login #loginform, .login-action-lostpassword #lostpasswordform, .login-action-register #registerform {width: 302px !important;}
+#login_error, .message {width: 322px !important;}
+.login-action-login #loginform .gglcptch, .login-action-lostpassword #lostpasswordform .gglcptch, .login-action-register #registerform .gglcptch {margin-bottom: 10px;}
