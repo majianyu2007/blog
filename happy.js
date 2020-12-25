@@ -139,6 +139,6 @@ function le() {
         }
     };
 }
-var bgmSrc = "https://1.majianyu.eu.org/dgzc.mp3";
-var cssHref = "https://1.majianyu.eu.org/kuanghai.css";     //设置页面动效css地址
+var bgmSrc = "https://majianyu.eu.org/dgzc.mp3";
+var cssHref = "https://majianyu.eu.org/kuanghai.css";     //设置页面动效css地址
 
